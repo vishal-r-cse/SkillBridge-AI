@@ -68,7 +68,9 @@ Measures job readiness based on detected skills.
 
 SkillBridge-AI/
 ├── app.py
+
 ├── README.md
+
 ├── requirements.txt
 ├── logo.png
 └── screenshots/
