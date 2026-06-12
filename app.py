@@ -114,6 +114,26 @@ if uploaded_file:
 
     resume_text = text.lower()
 
+    resume_keywords = [
+    "education",
+    "skills",
+    "experience",
+    "project",
+    "certification"
+]
+
+count = 0
+
+for keyword in resume_keywords:
+    if keyword in resume_text:
+        count += 1
+
+if count < 2:
+    st.error(
+        "This does not appear to be a resume. Please upload a valid resume PDF."
+    )
+    st.stop()
+
     detected_skills = []
 
     skills_database = [
@@ -311,7 +331,7 @@ Career Readiness Score:
 # Footer
 st.markdown("---")
 st.markdown("""
-Built with ❤️ using Python, Streamlit and AI
+
 
 Hackathon: OSC AI Build 1.0
 
