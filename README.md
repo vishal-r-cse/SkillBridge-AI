@@ -65,7 +65,9 @@ Measures job readiness based on detected skills.
 * GitHub Copilot
 
 ## Project Structure
+## Project Structure
 
+```text
 SkillBridge-AI/
 │
 ├── app.py
@@ -79,7 +81,7 @@ SkillBridge-AI/
     ├── 4. Skill Gap Analysis.png
     ├── 5. Career Readiness Score.png
     └── 6. AI Insights.png
-
+```
 
 ## Installation
 
