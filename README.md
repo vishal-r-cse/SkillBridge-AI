@@ -67,13 +67,19 @@ Measures job readiness based on detected skills.
 ## Project Structure
 
 SkillBridge-AI/
+│
 ├── app.py
-
 ├── README.md
-
 ├── requirements.txt
 ├── logo.png
 └── screenshots/
+    ├── 1. Home Page.png
+    ├── 2. Resume Upload.png
+    ├── 3. Skills Detected.png
+    ├── 4. Skill Gap Analysis.png
+    ├── 5. Career Readiness Score.png
+    └── 6. AI Insights.png
+
 
 ## Installation
 
@@ -87,7 +93,7 @@ python -m streamlit run app.py
 Team Name: VisionX
 
 Developer:
-Vishal R
+VISHAL 
 
 ## Future Scope
 
