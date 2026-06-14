@@ -1,70 +1,100 @@
-# 🚀 SkillBridge AI
+# SkillBridge AI 🚀
 
-## Bridge the Gap Between Skills and Careers
+AI-Powered Career Guidance Platform for Students and Graduates
 
-SkillBridge AI is an AI-powered career guidance platform that helps students and fresh graduates identify skill gaps, receive personalized learning roadmaps, and improve their career readiness through resume analysis.
+## Theme
+
+**Future of Productivity**
+
+---
 
 ## Problem Statement
 
-Many students struggle to understand:
+Many students and graduates struggle to identify the skills required for their target careers. They often lack personalized guidance, structured learning roadmaps, and clarity about their career readiness. As a result, they spend time learning inefficiently and miss valuable internship and job opportunities.
 
-* Which skills are required for their target career
-* What skills are missing from their resume
-* Which projects they should build
-* How ready they are for internships and jobs
+---
 
-## Solution
+## Existing System
 
-SkillBridge AI analyzes a user's resume and compares it against industry requirements for a selected role.
+Students typically rely on multiple platforms such as online learning websites, career guidance portals, job boards, and YouTube tutorials to prepare for their careers.
 
-The platform provides:
+While these platforms provide useful resources, they often have several limitations:
 
-* Skill Detection
-* Skill Gap Analysis
-* Personalized Learning Roadmap
-* Project Recommendations
-* Career Readiness Score
-* Downloadable Career Report
+* Generic learning recommendations for all users
+* No personalized skill-gap analysis
+* Lack of career readiness evaluation
+* No structured learning roadmap
+* Limited project recommendations
+* Scattered learning resources across multiple platforms
+* Difficulty identifying the right skills for a target role
 
-## Features
+---
 
-### Resume Upload
+## Our Solution – SkillBridge AI
 
-Upload PDF resumes for analysis.
+SkillBridge AI is an AI-powered career guidance platform that helps students bridge the gap between their current skills and industry requirements.
 
-### Skill Detection
+Users can upload their resume and select a target career role. The platform then analyzes the resume, detects skills, identifies skill gaps, and provides personalized recommendations to improve career readiness.
 
-Automatically detects technical skills from resumes.
+---
 
-### Skill Gap Analysis
+## Key Features
 
-Identifies missing skills for target roles.
+### 📄 Resume Analysis
 
-### Learning Roadmap
+Extracts and analyzes information from uploaded resumes.
 
-Provides a structured learning plan.
+### 🔍 Skill Detection
 
-### Project Recommendations
+Identifies existing skills from the resume.
 
-Suggests relevant projects for skill improvement.
+### 🧠 Skill Gap Analysis
 
-### Career Readiness Score
+Detects missing skills required for the selected career path.
 
-Measures job readiness based on detected skills.
+### 🗺 Personalized Learning Roadmap
+
+Provides a structured learning path to improve skills.
+
+### 💻 Project Recommendations
+
+Suggests relevant projects based on career goals.
+
+### 📈 Career Readiness Score
+
+Evaluates how prepared the user is for their target role.
+
+### 📥 Downloadable Report
+
+Generates a career guidance report for future reference.
+
+---
+
+## Key Improvement Over Existing Systems
+
+Instead of providing generic career guidance, SkillBridge AI offers:
+
+* Personalized recommendations
+* Resume-based analysis
+* Skill-gap identification
+* Structured learning roadmap
+* Career readiness scoring
+* Project recommendations
+
+All in a single platform.
+
+---
 
 ## Technology Stack
 
 * Python
 * Streamlit
-* PyMuPDF (fitz)
+* PyMuPDF
 * GitHub
+* Streamlit Cloud
 
-## AI Tools Used
+---
 
-* ChatGPT
-* GitHub Copilot
-
-## Project Structure
 ## Project Structure
 
 ```text
@@ -83,6 +113,64 @@ SkillBridge-AI/
     └── 6. AI Insights.png
 ```
 
+---
+
+## Screenshots
+
+### Home Page
+
+![Home Page](screenshots/1.%20Home%20Page.png)
+
+### Resume Upload
+
+![Resume Upload](screenshots/2.%20Resume%20Upload.png)
+
+### Skill Gap Analysis
+
+![Skill Gap Analysis](screenshots/4.%20Skill%20Gap%20Analysis.png)
+
+### Career Readiness Score
+
+![Career Readiness Score](screenshots/5.%20Career%20Readiness%20Score.png)
+
+---
+
+## Live Demo
+
+https://skillbridge-ai-axxexf6abm39xgftcsacv7.streamlit.app/
+
+---
+
+## GitHub Repository
+
+https://github.com/vishal-r-cse/SkillBridge-AI
+
+---
+
+## Impact
+
+SkillBridge AI helps students:
+
+* Make informed career decisions
+* Learn the right skills faster
+* Build relevant projects
+* Improve internship readiness
+* Increase employability
+* Reduce career uncertainty
+
+---
+
+## Future Scope
+
+* LinkedIn Integration
+* AI Mock Interviews
+* Job Matching
+* Mobile Application
+* Career Analytics Dashboard
+* Multi-Language Support
+
+---
+
 ## Installation
 
 ```bash
@@ -90,28 +178,18 @@ pip install -r requirements.txt
 python -m streamlit run app.py
 ```
 
-## Team Information
+---
 
-Team Name: VisionX
+## Team
 
-Developer:
-VISHAL 
+**Team Name:** VisionX
 
-## Future Scope
+**Developer:** Vishal R
 
-* AI Mock Interviews
-* ATS Resume Scoring
-* LinkedIn Integration
-* Job Recommendation System
-* Mobile Application
-
-
-## GitHub Repository
-
-https://github.com/vishal-r-cse/SkillBridge-AI
+---
 
 ## Hackathon
 
-OSC AI Build 1.0
+**OSC AI Build 1.0**
 
-Theme: Future of Productivity
+**Theme:** Future of Productivity
