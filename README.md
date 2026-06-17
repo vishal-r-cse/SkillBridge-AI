@@ -160,6 +160,19 @@ SkillBridge AI helps students:
 
 ---
 
+## Career Readiness Score
+
+The Career Readiness Score evaluates a user's preparedness for a selected role based on:
+
+- Skill Match
+- Missing Skills
+- Project Readiness
+- Learning Progress
+
+The score helps users identify improvement areas and track career development.
+
+---
+
 ## Future Scope
 
 * LinkedIn Integration
